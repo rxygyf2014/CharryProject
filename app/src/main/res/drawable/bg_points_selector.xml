@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@mipmap/theme_pink_ic_new_point" android:state_enabled="false" />
+    <!--能够接受点击事件，说明还没有被改-->
+    <item android:drawable="@mipmap/light_blue_point" android:state_enabled="true" />
+
+</selector>

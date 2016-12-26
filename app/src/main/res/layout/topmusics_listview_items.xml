@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/topmusic_select"
+        android:layout_width="5dp"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:background="#FF005C"
+        android:visibility="gone" />
+
+    <com.charryteam.charryproject.widget.RoundImageView
+        android:id="@+id/topmusic_listview_items_iv"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:layout_margin="10dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/topmusic_listview_items_musicname"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_alignTop="@+id/topmusic_listview_items_iv"
+        android:layout_marginLeft="12dp"
+        android:layout_toEndOf="@+id/topmusic_listview_items_iv"
+        android:layout_toRightOf="@+id/topmusic_listview_items_iv"
+        android:gravity="center"
+        android:text="music_name"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/topmusic_listview_items_artistname"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_alignBottom="@+id/topmusic_listview_items_iv"
+        android:layout_marginLeft="15dp"
+        android:layout_toEndOf="@+id/topmusic_listview_items_iv"
+        android:layout_toRightOf="@+id/topmusic_listview_items_iv"
+        android:gravity="center"
+        android:text="artist_name"
+        android:textSize="10sp" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20dp"
+        android:src="@mipmap/ic_extra" />
+
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/scan_container"
+    tools:context="com.charryteam.charryproject.fragment.home.LocalSongScanFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ListView
+        android:id="@+id/scan_listview"
+        android:layout_width="match_parent"
+        android:layout_height="439dp"></ListView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff0000"
+        android:onClick="ClickScan"
+        android:text="全盘扫描"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <CheckBox
+            android:id="@+id/scan_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/scantime_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="过滤时间少于60秒的文件"/>
+        <TextView
+            android:id="@+id/scanfile_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:text="过滤文件夹"/>
+    </LinearLayout>
+
+</LinearLayout>

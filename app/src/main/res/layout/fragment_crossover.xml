@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tablayout="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="com.charryteam.charryproject.fragment.CrossoverFragment">
+
+
+	<LinearLayout
+		android:id="@+id/crossover_title"
+		android:layout_width="match_parent"
+		android:layout_height="50dp"
+		android:background="#FF005C"
+		android:orientation="horizontal">
+
+
+		<ImageView
+			android:id="@+id/crossover_iv_head"
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:padding="10dp"
+			android:src="@mipmap/ic_default_head_small"/>
+
+		<android.support.design.widget.TabLayout
+			android:id="@+id/crossover_tablayout"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_centerInParent="true"
+			android:layout_weight="3"
+			android:fillViewport="false"
+			tablayout:tabGravity="fill"
+			tablayout:tabIndicatorColor="#FF005C"
+			tablayout:tabMode="fixed"
+			tablayout:tabSelectedTextColor="#fff" tablayout:tabTextColor="#FAADA2">
+		</android.support.design.widget.TabLayout>
+		<RelativeLayout android:layout_width="0dp"
+		                android:layout_weight="1"
+		                android:layout_height="match_parent">
+			<TextView
+				android:id="@+id/crossover_create"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:background="@drawable/shape_create_background"
+				android:text="创建"
+				android:gravity="center"
+				android:layout_centerInParent="true"
+				android:textColor="#FF005C"
+				android:textSize="12sp"
+			    android:layout_marginRight="20dp"
+			    android:layout_marginTop="8dp"
+			    android:layout_marginBottom="8dp"
+				/>
+		</RelativeLayout>
+
+
+		</LinearLayout>
+
+
+	<android.support.v4.view.ViewPager
+		android:id="@+id/crossover_vp_fragment"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/crossover_title"/>
+</RelativeLayout>

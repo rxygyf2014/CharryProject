@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/CharryProject/!svn/ver/98/CharryProject/app/src/main/java/com/charryteam/charryproject/adapter
+END
+PlayViewPagerAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/CharryProject/!svn/ver/50/CharryProject/app/src/main/java/com/charryteam/charryproject/adapter/PlayViewPagerAdapter.java
+END
+CrossoverInfoAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/CharryProject/!svn/ver/94/CharryProject/app/src/main/java/com/charryteam/charryproject/adapter/CrossoverInfoAdapter.java
+END
+ListviewSimilarSongsAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/CharryProject/!svn/ver/35/CharryProject/app/src/main/java/com/charryteam/charryproject/adapter/ListviewSimilarSongsAdapter.java
+END
+DownLoadAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/CharryProject/!svn/ver/98/CharryProject/app/src/main/java/com/charryteam/charryproject/adapter/DownLoadAdapter.java
+END
+Home_Local_Music_Song_Adapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/CharryProject/!svn/ver/98/CharryProject/app/src/main/java/com/charryteam/charryproject/adapter/Home_Local_Music_Song_Adapter.java
+END
+HomeAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/CharryProject/!svn/ver/98/CharryProject/app/src/main/java/com/charryteam/charryproject/adapter/HomeAdapter.java
+END
+Home_Local_Music_Singer_Adapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/CharryProject/!svn/ver/98/CharryProject/app/src/main/java/com/charryteam/charryproject/adapter/Home_Local_Music_Singer_Adapter.java
+END
+LocalAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/CharryProject/!svn/ver/98/CharryProject/app/src/main/java/com/charryteam/charryproject/adapter/LocalAdapter.java
+END
+CommonFragmentAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/CharryProject/!svn/ver/57/CharryProject/app/src/main/java/com/charryteam/charryproject/adapter/CommonFragmentAdapter.java
+END

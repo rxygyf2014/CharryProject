@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.charryteam.charryproject.fragment.SettingFragment"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+         <TextView
+            android:id="@+id/off_timer_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+             android:layout_marginLeft="10dp"
+            android:text="关闭定时" />
+         <TextView
+             android:id="@+id/night_mode_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_marginTop="50dp"
+             android:layout_marginLeft="10dp"
+              android:text="夜间模式" />
+         <TextView
+             android:id="@+id/only_internet_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_marginTop="50dp"
+             android:layout_marginLeft="10dp"
+             android:text="仅wi-fi联网" />
+         <TextView
+             android:id="@+id/clear_cache_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_marginTop="50dp"
+             android:layout_marginLeft="10dp"
+             android:text="清理缓存" />
+         <TextView
+            android:id="@+id/about_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_marginTop="50dp"
+             android:layout_marginLeft="10dp"
+             android:text="关于樱桃" />
+         <TextView
+             android:id="@+id/feedback_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+             android:layout_marginLeft="10dp"
+            android:text="意见反馈" />
+
+</LinearLayout>

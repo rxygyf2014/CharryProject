@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/CharryProject/!svn/ver/141/CharryProject/app/src/main/java/com/charryteam/charryproject/fragment/discover/adapter
+END
+SongEntityAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/CharryProject/!svn/ver/141/CharryProject/app/src/main/java/com/charryteam/charryproject/fragment/discover/adapter/SongEntityAdapter.java
+END
+TopMusicsAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/CharryProject/!svn/ver/109/CharryProject/app/src/main/java/com/charryteam/charryproject/fragment/discover/adapter/TopMusicsAdapter.java
+END
+RadioStationListViewAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/CharryProject/!svn/ver/71/CharryProject/app/src/main/java/com/charryteam/charryproject/fragment/discover/adapter/RadioStationListViewAdapter.java
+END
+DiscoverViewPagerAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/CharryProject/!svn/ver/54/CharryProject/app/src/main/java/com/charryteam/charryproject/fragment/discover/adapter/DiscoverViewPagerAdapter.java
+END
+TopArtistsAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/CharryProject/!svn/ver/82/CharryProject/app/src/main/java/com/charryteam/charryproject/fragment/discover/adapter/TopArtistsAdapter.java
+END
+ConcentrationListViewAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/CharryProject/!svn/ver/71/CharryProject/app/src/main/java/com/charryteam/charryproject/fragment/discover/adapter/ConcentrationListViewAdapter.java
+END

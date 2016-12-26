@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@mipmap/btn_play"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/tv_musicname"
+        android:layout_toRightOf="@id/iv_icon"
+        android:text="歌曲名"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_toRightOf="@id/iv_icon"
+        android:text="演唱者"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/tv_musicname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/iv_extra"
+        android:layout_alignParentRight="true"
+        android:src="@mipmap/ic_playing_extra"/>
+</RelativeLayout>

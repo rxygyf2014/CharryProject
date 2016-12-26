@@ -1,0 +1,109 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/detail_bgCrossover"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_playing"
+    android:orientation="vertical"
+    tools:context="com.charryteam.charryproject.fragment.crossover.CrossoverDetailsFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#00a1d189">
+        <!--<android.support.v7.widget.Toolbar-->
+            <!--android:id="@+id/concentration_detials_toolbar"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="?attr/actionBarSize"-->
+            <!--android:backgroundTint="#FF005C"-->
+            <!--android:minHeight="?attr/actionBarSize"-->
+            <!--app:navigationIcon="?attr/homeAsUpIndicator"-->
+            <!--app:layout_collapseMode="pin"-->
+            <!--app:layout_scrollFlags="scroll|exitUntilCollapsed"-->
+            <!--app:popupTheme="@style/ThemeOverlay.AppCompat.Light"-->
+            <!--app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">-->
+
+
+        <!--</android.support.v7.widget.Toolbar>-->
+
+        <ImageView
+        android:id="@+id/detail_backCrossover"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:padding="15dp"
+        android:src="@mipmap/ic_back" />
+
+        <ImageView
+        android:id="@+id/detail_shareCrossover"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/crossover_share_selector" />
+
+        <ImageView
+        android:id="@+id/detail_likeCrossover"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="30dp"
+        android:layout_toLeftOf="@id/detail_shareCrossover"
+        android:src="@drawable/crossover_like_selctor" />
+        </RelativeLayout>
+    <!--</RelativeLayout>-->
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/detail_viewpagerCrossover"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#50a1d189">
+
+    </android.support.v4.view.ViewPager>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#31a1d189">
+
+        <ImageView
+            android:id="@+id/detail_playCrossover"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:src="@drawable/crossover_play_selector" />
+
+        <TextView
+            android:id="@+id/detail_mesicNameCrossover"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/detail_playCrossover"
+            android:gravity="center"
+            android:text="歌曲的名字"
+            android:textColor="#fff"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/detail_artistCrossover"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/detail_mesicNameCrossover"
+            android:layout_marginBottom="2dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="2dp"
+            android:layout_toRightOf="@+id/detail_playCrossover"
+            android:gravity="center"
+            android:text="作者"
+            android:textColor="#fff" />
+    </RelativeLayout>
+
+</LinearLayout>
